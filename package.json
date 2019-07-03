@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-london",
+  "name": "Noman-site",
   "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
+  "description": "Noman Ahmed Khan Site",
   "version": "1.0.0",
-  "author": "Imed Adel <aadelimed@gmail.com>",
+  "author": "Noman Ahmed <TheNomanAhmed@gmail.com>",
   "bugs": {
     "url": "https://github.com/ImedAdel/gatsby-london/issues"
   },

@@ -391,7 +391,7 @@ body {
 
 .post-feed {
     display: flex;
-    align-items: ;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -414,9 +414,6 @@ body {
     }
 }
 
-.post-card-large {
-    flex: 1 1 100%;
-}
 
 .post-card-link {
     flex: 1 1 auto;
@@ -454,12 +451,16 @@ body {
 }
 
 .post-card-title {
-    margin: 0;
-    display: inline-block;
-    font-size: 3.4rem;
-    max-width: 70%;
     text-align: center;
-    transition: all 0.3s cubic-bezier(.33,0,.2,1);
+    background-color:black;
+    right: 0%;
+    bottom: 0%;
+    position: absolute;
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
 }
 
 /* Posts without images */
