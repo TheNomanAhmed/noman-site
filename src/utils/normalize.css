@@ -363,7 +363,7 @@ template {
   /* 1. */
   text-shadow: inherit;
   /* 2. */
-  background-color: #accef7;
+  background-color: #fff0a0;
   /* 3. */
 }
 ::selection {
@@ -371,7 +371,7 @@ template {
   /* 1. */
   text-shadow: inherit;
   /* 2. */
-  background-color: #accef7;
+  background-color: #fff0a0;
   /* 3. */
 }
 

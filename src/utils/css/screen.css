@@ -51,7 +51,7 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-wrapper {
-    padding: 3vw;
+    padding: 2vw;
     min-height: 100vh;
 }
 @media (max-width: 850px) {
@@ -65,7 +65,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 13vw 0;
+    padding: 7vw 0;
     max-width: 70%;
     margin: auto;
     text-align: center;
@@ -138,7 +138,7 @@ body {
     position: relative;
     z-index: 300;
     margin-top: -10px;
-    font-size: 1.35rem;
+    font-size: 1.70rem;
 }
 
 .site-head-container {
@@ -184,6 +184,11 @@ body {
     text-decoration: none;
     opacity: 1;
 }
+
+.nav-link a:active {
+    background-color: rgb(133, 16, 16);
+    color: #444;
+  }
 
 .site-head-center {
     position: absolute;
@@ -508,9 +513,9 @@ body {
 /* ---------------------------------------------------------- */
 
 .post-content {
-    max-width: 720px;
+    max-width: 90%;
     margin: 0 auto;
-    padding: 6vw 0;
+    padding: 6vw 0 0 0;
 }
 
 .post-content-header {
@@ -520,13 +525,13 @@ body {
 }
 
 .post-content-title {
-    margin: 0 0 3vw;
+    margin: 0 0 2vw 0;
     color: var(--color-base);
     text-align: center;
 }
 
 .post-content-excerpt {
-    margin: -2vw 0 3vw;
+    margin: 0vw 9vw 3vw;
     font-size: 2.2rem;
     line-height: 1.6em;
     color: var(--color-base);
@@ -720,3 +725,31 @@ body {
 .page-template .post-content-body h3 {
     text-align: center;
 }
+
+
+
+
+
+.example_a {
+    margin-top: 3vw;
+    color: rgb(35, 24, 75) !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #FEEF9F;
+    padding: 1vw 5vw;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    }
+
+    
+    .example_a:hover {
+        text-decoration:none;
+        background: rgb(245, 225, 114);
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+        }

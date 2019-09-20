@@ -16,3 +16,5 @@ description: Nuur cafe is a summer pop-up cafe in Helsinki center. The purpose o
 ![Nuur Cafe](./5.jpg)
 
 ![Nuur Cafe](./6.jpg)
+
+![Nuur Cafe](./7.jpg)
