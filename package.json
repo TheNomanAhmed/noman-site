@@ -4,9 +4,6 @@
   "description": "Noman Ahmed Khan Site",
   "version": "1.0.0",
   "author": "Noman Ahmed <TheNomanAhmed@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/ImedAdel/gatsby-london/issues"
-  },
   "dependencies": {
     "gatsby": "^2.4.2",
     "gatsby-image": "^2.0.41",

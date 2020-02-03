@@ -26,15 +26,16 @@ const Layout = props => {
           </a>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              <li className="nav-home" role="menuitem" >
-                <Link className="nav-link" to={`/`}>Home</Link>
+              <li className="nav-home" role="menuitem">
+                <Link className="nav-link" to={`/`}>
+                  Home
+                </Link>
               </li>
-              <li className="nav-about" role="menuitem" >
-                <Link className="nav-link" to={`/about`}>About</Link>
+              <li className="nav-about" role="menuitem">
+                <Link className="nav-link" to={`/about`}>
+                  About
+                </Link>
               </li>
-
-
-
             </ul>
           </nav>
           <div className="site-head-center">
@@ -44,6 +45,14 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
+              <a
+                href="https://www.github.com/thenomanahmed/"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
               <a
                 href="https://www.behance.net/TheNomanAhmed"
                 title="Behance"
@@ -60,41 +69,25 @@ const Layout = props => {
               >
                 LinkedIn
               </a>
-              <a
-                href="https://www.instagram.com/thenomanahmed/"
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-
             </div>
           </div>
         </div>
       </header>
+
       <main id="site-main" className="site-main">
         <div id="swup" className="transition-fade">
           {children}
-         
         </div>
 
-
         <div align="center">
-          <Link className="example_a" to={`/`} >Back to Home
+          <Link className="example_a" to={`/`}>
+            Back to Home
           </Link>
-          </div>
-
-
-
-
-
+        </div>
       </main>
       <footer className="site-foot">
-        
         &copy; {new Date().getFullYear()}
-         <Link to={`/`}>{ title}</Link> &mdash;
-        Built with{" "}
+        <Link to={`/`}> {title}</Link> &mdash; Built with{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
